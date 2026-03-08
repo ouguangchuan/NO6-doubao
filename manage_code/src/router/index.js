@@ -19,9 +19,10 @@
 	import messages from '@/views/messages/list'
 	import yisheng from '@/views/yisheng/list'
 	import config from '@/views/config/list'
-	import usersCenter from '@/views/users/center'
-	import yishengRegister from '@/views/yisheng/register'
-	import yishengCenter from '@/views/yisheng/center'
+import tongzhijilu from '@/views/tongzhijilu/list'
+import usersCenter from '@/views/users/center'
+import yishengRegister from '@/views/yisheng/register'
+import yishengCenter from '@/views/yisheng/center'
 
 export const routes = [{
 		path: '/login',
@@ -78,6 +79,11 @@ export const routes = [{
 			path: '/jiuzhentongzhi',
 			name: '就诊通知',
 			component: jiuzhentongzhi
+		}
+		,{
+			path: '/tongzhijilu',
+			name: '通知记录',
+			component: tongzhijilu
 		}
 		,{
 			path: '/yaopinxinxi',
